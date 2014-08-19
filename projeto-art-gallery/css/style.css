@@ -1,0 +1,502 @@
+
+
+body{
+	background-color: #997373;
+	margin:0;
+}
+	.container{
+	max-width: 70%;
+	margin:0 auto;
+	/*border: 1px solid #000;*/
+	/*border:2px solid red;*/
+	}
+
+		/*COMEÇO DO HEADER*/
+
+		header{
+			
+			height: 170px;
+			background: #656565;
+		}
+
+			.header-left{
+				/*border:1px solid red;*/
+				width: 70%;
+				float: left;
+				height:100%;
+			}
+
+			.header-right{
+				height:100%;
+				float: right;
+				
+				width: 29%;
+			}
+
+			.header-title{
+				margin:40px 0px 10px 40px;
+				color: #BCD7DE;
+				
+			}
+
+			.header-text{
+				color:#fff;
+				margin: 10px 0px 10px 40px;
+				display: block;
+			}
+
+
+		/*NAVEGAÇÃO*/
+
+		nav{
+
+		width: auto;
+		/*border-radius: 7px;
+		border: 1px solid #656565;*/
+		}
+		/*
+		.nav-links ul{
+			float: right;
+			margin-top: 63px;
+			width: 100%;
+		}
+		*/
+			.nav-links {
+				/*position: relative;*/
+				margin-top:75px;
+				border-radius: 3px;
+			}
+			
+			#inicio{
+				border-top-left-radius:3px; 
+			}
+
+			.nav-links a{
+				border-radius: 2px;
+				display: inline-block;
+				padding: 5px 10px;
+				text-decoration: none;
+				color: black;
+				font-size: 14px;
+				font-family: arial, sans-serif;
+
+				}
+
+			.selected{
+				background-color: #fff;
+			}
+
+			.non-selected{
+				background-color: #C6E7ED;
+			}
+			/*BUSCA*/
+
+		.busca{
+
+		}
+
+			.searchform{
+				margin-top: 40px;
+				/*float: right;*/
+				width: 100%;
+			}
+
+			.search-text{
+				margin-left: -0.5px;
+				height: 19px;
+				width: 80%;
+			}
+
+			.img-lupa{
+				padding: 0;
+				height: 25px;
+				width: 24px;
+				border:1px solid #c9ceff;
+				margin-bottom: -7px;
+				margin-left: -3px;
+				border-radius: 3px;
+				box-sizing:border-box;
+			}
+
+			.search-button{
+				display:none;
+			}
+
+		/*FIM DO HEADER*/
+
+
+		/*COMEÇO DO SECTION*/
+
+		.main{
+			/*border:1px solid yellow;*/
+			height: 868px;
+			background-color: #fff;
+			margin-top: -3px;
+		}
+			
+			.galeria{
+				width: 100%;
+				height: auto;
+			}
+
+			section{
+				float: left;
+				/*border:4px solid #444;*/
+				width: 70%;
+				background-color: #fff;
+				max-height: 100%;
+
+			}
+
+			.section-header-title{
+				font-size: 20px;
+				margin: 0px 0px 15px 40px;
+				position: relative;
+				padding-top: 20px;
+			}
+
+
+			.tabelaimagem{
+			text-align: center;
+			font-size: 12px;
+			font-style:
+			}
+			.tabelaimagem p
+			{
+
+			font-size: 15px;
+			color:red;
+
+
+			}
+
+			#busca-pdf{
+				width: 90%;
+			}
+
+
+		/*FIM DO SECTION*/
+
+
+		/*ASIDE*/
+
+		aside{
+			/*float: right;*/
+			width: 26%;
+			height: 100%;
+			
+			
+			float: right;
+			margin-right: 3%;
+		}
+
+		.aside-container{
+			float: right;
+			/*height: 200px*/
+			/*border:1px solid blue;*/
+			/*width: 291px;*/
+			margin:0 0 0 0;
+			background-color: #fff;
+			width: 100%;
+		}
+
+		/*FIM DO ASIDE*/
+
+
+		/*COMEÇO DO FOOTER*/
+
+		footer {
+		background-color: #656565  ;
+		position: relative;
+
+		width:100%;
+		height:140px;
+		}
+
+		.copyright{
+		font-size: 15px;
+		text-align: center;
+		color:#B97C7C;
+		line-height: 30px;
+		margin-top: 0;
+		position: relative;
+		}
+
+		.footer-text{
+		font-size: 15px;
+		text-align: center;
+		color:#fff;
+		line-height: 30px;	
+		position: relative;
+		}
+
+		hr {
+		height:4px;
+		background-color: gray;
+
+		}
+
+		.titaside{
+
+		
+
+		}
+		.asidelink {
+
+		text-decoration: none;
+		color:black;
+		box-shadow: 3px;
+
+		}
+
+		/*FIM DO FOOTER*/
+
+		/* formulário de contato */
+
+		.div-contato{
+			margin-left: 40px;
+		}
+
+		.formcontact{
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		-o-border-radius:3px;	
+		border-radius: 3px;
+		width:200px;
+		}
+
+		.areatexto{
+		width:420px;
+		height:80px;
+		}
+
+
+
+		.bloco-img{
+			float: left;
+			width: 30%;
+			margin-left: 20px;
+			margin-top: 5px;
+			
+		}
+
+		.bloco-img img{
+			width: 100%;
+
+			
+		}
+
+		.bloco-img p{
+			text-align: center;
+			color: red;
+		}
+
+		.bloco-img p.neg{
+			font-weight: bold;
+		}
+
+
+@media screen and (max-width: 1400px){
+	
+
+
+	.header-left{
+		.width: 60%;
+
+
+	}
+		.nav-links{
+			margin-top: 19px;
+
+		}
+
+		.nav-links a{
+				border-radius: 0;
+			display: block;
+			font-size: 15px;
+		}
+
+	.main{
+		margin-top: 0px;
+	}
+
+	
+	aside {
+    width: 28%;
+    margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 1226px){
+	
+	.main{
+		overflow: hidden;
+		height: auto;
+	}
+
+	.bloco-img{
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 995px){
+
+	.formcontact {
+    border-radius: 3px;
+    width: 42%;
+	}
+
+	.areatexto{
+		width: 95%;
+	}
+
+}
+
+
+@media screen and (max-width: 850px){
+	/*
+	.main{
+		height: 2800px;
+	}
+*/
+	.img-lupa{
+		display: none;
+	}
+	
+	.search-button{
+		display: block;
+		width: 85%;
+	}
+	
+
+	.searchform {
+    margin-top: 15px;
+   	}
+
+}
+
+@media screen and (max-width: 850px){
+
+	.bloco-img{
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 669px){
+
+	.nav-links a{
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.nav-links a span{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	
+	aside{
+		float: none;
+		width: 92%;
+		margin:10px 10px;
+	}
+	
+	.destaques{
+		text-align: center;
+	}
+
+	section{
+		width: 100%;
+	}
+	
+	.section-header{
+		text-align: center;
+
+	}
+
+		.section-header-title{
+			margin-left:0;
+		}
+
+	.destaques{
+		width:50%;
+		height: auto;
+	}
+
+	.destaques p{
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 500px){
+	.header-text{
+	
+		font-size: 15px;
+	}
+
+	.header-title {
+    color: #bcd7de;
+    margin: 12px 0 10px 8px;
+	font-size: 25px;
+	}
+
+	.header-text {
+
+    margin: 10px 0 10px 8px;
+	}
+
+	.section-header-title{
+		margin-left: 8px;
+	}
+
+}
+
+@media screen and (max-width: 395px){
+	.formcontact{
+		width: 92%;
+	}
+}
+
+
+@media screen and (max-width: 350px){
+	.header-title{
+		font-size:20px;
+	}
+
+	#fim span{
+		display: none;
+
+	}
+
+	.footer-text{
+		line-height: 1;
+	}
+}
+
+
+
+/*@media screen and (max-width: 800px)
+
+@media screen and (max-width: 800px)
+
+@media screen and (max-width: 800px)
+
+@media screen and (max-width: 1024px){
+	
+}
+
+SMARTPHONES
+
+@media screen and (max-width: 800px)
+
+@media screen and (max-width: 480px){
+
+}
+*/
+
